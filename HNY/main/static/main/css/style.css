@@ -1,0 +1,20 @@
+body{
+    background: #55E6FF;
+}
+
+.mrg{
+    margin: 40vh 0;
+}
+
+.hello{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+}
