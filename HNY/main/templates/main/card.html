@@ -7,7 +7,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HNY</title>
+    <title>A card to {{name}}</title>
 </head>
 <body>
     <img style="left: 10px; animation: a1 5.5s infinite;" class="drop" src="{% static 'main\img\sniz.png' %}" alt="">
@@ -21,11 +21,6 @@
     <img style="left: 1700px; animation: a1 1.5s infinite;" class="drop" src="{% static 'main\img\sniz.png' %}" alt="">
     <div class="mrg"></div>
     <div class="hello">Happy New Year 2024</div>
-    <div class="text">Please, enter the name below☃️</div>
-    <form method="post" class="post">
-            {% csrf_token %}
-            <input type="text" name="name_inp">
-            <input type="submit" value="Send">
-        </form>
+    <div class="text">Dear, {{name}}! {{message}}☃️</div>
 </body>
 </html>
